@@ -1,0 +1,61 @@
+{
+  "name": "vitexsoftware/apptemplate",
+  "description": "Tool used to setup FlexiBee multiinstance",
+  "version": "0.1",
+  "type": "project",
+  "require": {
+    "deb/ease-fluentpdo": "*",
+    "deb/ease-bootstrap4-widgets": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vítězslav Dvořák",
+      "email": "info@vitexsoftware.cz"
+    }
+  ],
+  "config": {
+    "vendor-dir": "/var/lib/apptemplate"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Ease\\AppTemplate\\": "Ease",
+      "Ease\\AppTemplate\\Ui\\": "Ease/Ui"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseCore/"
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseHtml/"
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/Ease/"
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseBricks/"
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseTWB4/"
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseFluentPDO/"
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseBricks/"
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseTWB4Widgets/"
+    }
+  ]
+}

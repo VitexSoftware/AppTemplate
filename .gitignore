@@ -1,0 +1,14 @@
+/vendor/
+composer.lock
+/debian/apptemplate/
+/debian/debhelper-build-stamp
+/debian/files
+/debian/apptemplate-pgsql/
+/debian/apptemplate-mysql/
+/debian/apptemplate-sqlite/
+/debian/*.substvars
+/debian/*.log
+/.vagrant/
+/debian/.debhelper/
+/nbproject/
+

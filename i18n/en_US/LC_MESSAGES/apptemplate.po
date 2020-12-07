@@ -1,0 +1,329 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AppTemplate\n"
+"POT-Creation-Date: 2020-12-06 17:00+0100\n"
+"PO-Revision-Date: 2020-12-06 17:01+0100\n"
+"Last-Translator: Vítězslav Dvořák <info@vitexsoftware.cz>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ../src\n"
+"X-Poedit-SearchPathExcluded-0: ../vendor\n"
+
+#: ../src/Ease/AppTemplate/Logger.php:110
+msgid "ID"
+msgstr "ID"
+
+#: ../src/Ease/AppTemplate/Logger.php:111
+msgid "Status"
+msgstr "Status"
+
+#: ../src/Ease/AppTemplate/Logger.php:112
+msgid "Subject"
+msgstr "Subject"
+
+#: ../src/Ease/AppTemplate/Logger.php:113
+msgid "Message"
+msgstr "Message"
+
+#: ../src/Ease/AppTemplate/Logger.php:114
+msgid "Created"
+msgstr "Created"
+
+#: ../src/Ease/AppTemplate/Logger.php:116
+msgid "Application"
+msgstr "Application"
+
+#: ../src/Ease/AppTemplate/Logger.php:124
+msgid "Company"
+msgstr "Company"
+
+#: ../src/Ease/AppTemplate/Logger.php:132 ../src/user.php:30
+msgid "User"
+msgstr "User"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:42
+msgid "Login"
+msgstr "Login"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:43 ../src/createaccount.php:135
+#: ../src/login.php:67 ../src/passwordrecovery.php:46
+msgid "Password"
+msgstr "Password"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:44 ../src/login.php:45
+msgid "Sign In"
+msgstr "Sign In"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:48 ../src/createaccount.php:120
+msgid "Singn On"
+msgstr "Singn On"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:49
+msgid "Password recovery"
+msgstr "Password recovery"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:66 ../src/logout.php:28
+msgid "Sign Off"
+msgstr "Sign Off"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:72
+msgid "Admin"
+msgstr "Admin"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:74
+msgid "New User"
+msgstr "New User"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:75
+msgid "Users Overview"
+msgstr "Users Overview"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:100
+msgid "Click to hide messages"
+msgstr "Click to hide messages"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:27 ../src/createaccount.php:129
+msgid "Firstname"
+msgstr "Firstname"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:29 ../src/createaccount.php:131
+msgid "Lastname"
+msgstr "Lastname"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:31 ../src/passwordrecovery.php:79
+msgid "Email"
+msgstr "Email"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:33 ../src/login.php:63
+#: ../src/passwordrecovery.php:45
+msgid "Username"
+msgstr "Username"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:38
+msgid "Save"
+msgstr "Save"
+
+#: ../src/Ease/AppTemplate/User.php:132
+msgid "missing login"
+msgstr "missing login"
+
+#: ../src/Ease/AppTemplate/User.php:137
+msgid "missing password"
+msgstr "missing password"
+
+#: ../src/Ease/AppTemplate/User.php:155
+msgid "invalid password"
+msgstr "invalid password"
+
+#: ../src/Ease/AppTemplate/User.php:162
+#, php-format
+msgid "user %s does not exist"
+msgstr "user %s does not exist"
+
+#: ../src/about.php:16 ../src/about.php:20
+msgid "About"
+msgstr "About"
+
+#: ../src/about.php:22
+msgid "Vitex Software"
+msgstr "Vitex Software"
+
+#: ../src/createaccount.php:15
+msgid "Creating first administrator"
+msgstr "Creating first administrator"
+
+#: ../src/createaccount.php:39
+msgid "invalid mail address"
+msgstr "invalid mail address"
+
+#: ../src/createaccount.php:46
+#, php-format
+msgid "Mail address %s is already registered"
+msgstr "Mail address %s is already registered"
+
+#: ../src/createaccount.php:54
+msgid "password is too short"
+msgstr "password is too short"
+
+#: ../src/createaccount.php:57
+msgid "Password control does not match"
+msgstr "Password control does not match"
+
+#: ../src/createaccount.php:66
+#, php-format
+msgid "Username %s is used. Please choose another one"
+msgstr "Username %s is used. Please choose another one"
+
+#: ../src/createaccount.php:83
+msgid "Admin account created"
+msgstr "Admin account created"
+
+#: ../src/createaccount.php:87
+msgid "User account created"
+msgstr "User account created"
+
+#: ../src/createaccount.php:93
+msgid "Sign On info"
+msgstr "Sign On info"
+
+#: ../src/createaccount.php:95
+#, php-format
+msgid "Your new %s account:"
+msgstr "Your new %s account:"
+
+#: ../src/createaccount.php:101
+#, php-format
+msgid "New Sign On to %s: %s"
+msgstr "New Sign On to %s: %s"
+
+#: ../src/createaccount.php:104
+msgid "New User:\n"
+msgstr "New User:\n"
+
+#: ../src/createaccount.php:113
+msgid "Administrator create failed"
+msgstr "Administrator create failed"
+
+#: ../src/createaccount.php:118
+msgid "New Administrator"
+msgstr "New Administrator"
+
+#: ../src/createaccount.php:133
+msgid "User name"
+msgstr "User name"
+
+#: ../src/createaccount.php:137
+msgid "Password confirmation"
+msgstr "Password confirmation"
+
+#: ../src/createaccount.php:139
+msgid "eMail address"
+msgstr "eMail address"
+
+#: ../src/createaccount.php:142
+msgid "Register"
+msgstr "Register"
+
+#: ../src/createaccount.php:143
+msgid "finish registration"
+msgstr "finish registration"
+
+#: ../src/index.php:17 ../src/main.php:22
+msgid "Ease APP Template"
+msgstr "Ease APP Template"
+
+#: ../src/index.php:20
+msgid "There is no administrators in the database."
+msgstr "There is no administrators in the database."
+
+#: ../src/index.php:21
+msgid "Create first Administrator Account"
+msgstr "Create first Administrator Account"
+
+#: ../src/login.php:55
+msgid "Welcome to Ease APP Template"
+msgstr "Welcome to Ease APP Template"
+
+#: ../src/login.php:59
+msgid "Sign in"
+msgstr "Sign in"
+
+#: ../src/login.php:65
+msgid "the username you chose"
+msgstr "the username you chose"
+
+#: ../src/login.php:75 ../src/passwordrecovery.php:56
+msgid "Lost password recovery"
+msgstr "Lost password recovery"
+
+#: ../src/logout.php:32
+msgid "Good bye"
+msgstr "Good bye"
+
+#: ../src/logout.php:37
+msgid "Thank you for your patronage and look forward to another visit"
+msgstr "Thank you for your patronage and look forward to another visit"
+
+#: ../src/passwordrecovery.php:19
+msgid "Please enter your email."
+msgstr "Please enter your email."
+
+#: ../src/passwordrecovery.php:28
+#, php-format
+msgid "unknow email address %s"
+msgstr "unknow email address %s"
+
+#: ../src/passwordrecovery.php:39
+#, php-format
+msgid "New password for %s"
+msgstr "New password for %s"
+
+#: ../src/passwordrecovery.php:43
+msgid "Sign On informations was changed"
+msgstr "Sign On informations was changed"
+
+#: ../src/passwordrecovery.php:50
+#, php-format
+msgid "Your new password was sent to %s"
+msgstr "Your new password was sent to %s"
+
+#: ../src/passwordrecovery.php:67
+msgid "Tip"
+msgstr "Tip"
+
+#: ../src/passwordrecovery.php:70
+msgid ""
+"Forgot your password? Enter your e-mail address you entered during the "
+"registration and we will send you a new one."
+msgstr ""
+"Forgot your password? Enter your e-mail address you entered during the "
+"registration and we will send you a new one."
+
+#: ../src/passwordrecovery.php:74
+msgid "Password Recovery"
+msgstr "Password Recovery"
+
+#: ../src/passwordrecovery.php:78
+msgid "Send me new Password"
+msgstr "Send me new Password"
+
+#: ../src/passwordrecovery.php:92
+msgid "Continue"
+msgstr "Continue"
+
+#: ../src/user.php:39
+msgid "Really delete ?"
+msgstr "Really delete ?"
+
+#: ../src/user.php:40
+msgid "No"
+msgstr "No"
+
+#: ../src/user.php:41
+msgid "Yes"
+msgstr "Yes"
+
+#: ../src/users.php:18
+msgid "Users overview"
+msgstr "Users overview"
+
+#~ msgid "Jméno"
+#~ msgstr "Jméno"
+
+#~ msgid "Příjmení"
+#~ msgstr "Příjmení"
+
+#~ msgid "OBU Go Home"
+#~ msgstr "OBU Go Home"
+
+#, fuzzy
+#~| msgid "OBU Go Home"
+#~ msgid "Obu Go Home request"
+#~ msgstr "OBU Go Home"

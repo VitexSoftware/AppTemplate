@@ -1,0 +1,1436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AppTemplate\n"
+"POT-Creation-Date: 2020-12-06 16:40+0100\n"
+"PO-Revision-Date: 2020-12-06 16:59+0100\n"
+"Last-Translator: Vítězslav Dvořák <info@vitexsoftware.cz>\n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SearchPath-0: ../src\n"
+"X-Poedit-SearchPathExcluded-0: ../vendor\n"
+
+#: ../src/Ease/AppTemplate/Logger.php:110
+msgid "ID"
+msgstr "ID"
+
+#: ../src/Ease/AppTemplate/Logger.php:111
+msgid "Status"
+msgstr "Stav"
+
+#: ../src/Ease/AppTemplate/Logger.php:112
+msgid "Subject"
+msgstr "Předmět"
+
+#: ../src/Ease/AppTemplate/Logger.php:113
+msgid "Message"
+msgstr "Zpráva"
+
+#: ../src/Ease/AppTemplate/Logger.php:114
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: ../src/Ease/AppTemplate/Logger.php:116
+msgid "Application"
+msgstr "Aplikace"
+
+#: ../src/Ease/AppTemplate/Logger.php:124
+msgid "Company"
+msgstr "Společost"
+
+#: ../src/Ease/AppTemplate/Logger.php:132 ../src/user.php:30
+msgid "User"
+msgstr "Uživatel"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:42
+msgid "Login"
+msgstr "Login"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:43 ../src/createaccount.php:135
+#: ../src/login.php:67 ../src/passwordrecovery.php:46
+msgid "Password"
+msgstr "Heslo"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:44 ../src/login.php:45
+msgid "Sign In"
+msgstr "Přihlásit"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:48 ../src/createaccount.php:120
+msgid "Singn On"
+msgstr "Registrace"
+
+#: ../src/Ease/AppTemplate/Ui/BootstrapMenu.php:49
+msgid "Password recovery"
+msgstr "Obnova hesla"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:66 ../src/logout.php:28
+msgid "Sign Off"
+msgstr "Odhlášení"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:72
+msgid "Admin"
+msgstr "Admin"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:74
+msgid "New User"
+msgstr "Nový  uživatel"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:75
+msgid "Users Overview"
+msgstr "Přehled uživatelů"
+
+#: ../src/Ease/AppTemplate/Ui/MainMenu.php:100
+msgid "Click to hide messages"
+msgstr "Klikněte pro skrytí zpráv"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:27 ../src/createaccount.php:129
+msgid "Firstname"
+msgstr "Jméno"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:29 ../src/createaccount.php:131
+msgid "Lastname"
+msgstr "Příjmení"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:31 ../src/passwordrecovery.php:79
+msgid "Email"
+msgstr "Email"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:33 ../src/login.php:63
+#: ../src/passwordrecovery.php:45
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: ../src/Ease/AppTemplate/Ui/UserForm.php:38
+msgid "Save"
+msgstr "Ulož"
+
+#: ../src/Ease/AppTemplate/User.php:132
+msgid "missing login"
+msgstr "chybějící přihlašovací jméno"
+
+#: ../src/Ease/AppTemplate/User.php:137
+msgid "missing password"
+msgstr "chybí heslo"
+
+#: ../src/Ease/AppTemplate/User.php:155
+msgid "invalid password"
+msgstr "chybné heslo"
+
+#: ../src/Ease/AppTemplate/User.php:162
+#, php-format
+msgid "user %s does not exist"
+msgstr "uživatel %s neexistuje"
+
+#: ../src/about.php:16 ../src/about.php:20
+msgid "About"
+msgstr "O Programu"
+
+#: ../src/about.php:22
+msgid "Vitex Software"
+msgstr "Vitex Software"
+
+#: ../src/createaccount.php:15
+msgid "Creating first administrator"
+msgstr "Vytvářím prvního administrátora"
+
+#: ../src/createaccount.php:39
+msgid "invalid mail address"
+msgstr "neplatná mailová adresa"
+
+#: ../src/createaccount.php:46
+#, php-format
+msgid "Mail address %s is already registered"
+msgstr "Mailová adresa %s je již registrována"
+
+#: ../src/createaccount.php:54
+msgid "password is too short"
+msgstr "heslo je příliš krátké"
+
+#: ../src/createaccount.php:57
+msgid "Password control does not match"
+msgstr "Kontrola hesla nesouhlasí"
+
+#: ../src/createaccount.php:66
+#, php-format
+msgid "Username %s is used. Please choose another one"
+msgstr "Uživatelské jméno %s je již použito. Prosím zvolte jiné"
+
+#: ../src/createaccount.php:83
+msgid "Admin account created"
+msgstr "Adminský účet byl vytvořen"
+
+#: ../src/createaccount.php:87
+msgid "User account created"
+msgstr "Úživatelský účet byl vytvořen"
+
+#: ../src/createaccount.php:93
+msgid "Sign On info"
+msgstr "Přihlašovací údaje"
+
+#: ../src/createaccount.php:95
+#, php-format
+msgid "Your new %s account:"
+msgstr "Tvůj nový účet %s:"
+
+#: ../src/createaccount.php:101
+#, php-format
+msgid "New Sign On to %s: %s"
+msgstr "Nové přihlášení do %s: %s"
+
+#: ../src/createaccount.php:104
+msgid "New User:\n"
+msgstr "Nový  uživatel\n"
+
+#: ../src/createaccount.php:113
+msgid "Administrator create failed"
+msgstr "Vytvoření administrátora selhalo"
+
+#: ../src/createaccount.php:118
+msgid "New Administrator"
+msgstr "Nový Administrátor"
+
+#: ../src/createaccount.php:133
+msgid "User name"
+msgstr "Uživatelské Jméno"
+
+#: ../src/createaccount.php:137
+msgid "Password confirmation"
+msgstr "Potvrzení hesla"
+
+#: ../src/createaccount.php:139
+msgid "eMail address"
+msgstr "eMailová adresa"
+
+#: ../src/createaccount.php:142
+msgid "Register"
+msgstr "Registrace"
+
+#: ../src/createaccount.php:143
+msgid "finish registration"
+msgstr "ukončit registraci"
+
+#: ../src/index.php:17 ../src/main.php:22
+msgid "Ease APP Template"
+msgstr ""
+
+#: ../src/index.php:20
+msgid "There is no administrators in the database."
+msgstr "Zatím nejsou administrátoři v databázi."
+
+#: ../src/index.php:21
+msgid "Create first Administrator Account"
+msgstr "Vytvořit účet prvního administrátora"
+
+#: ../src/login.php:55
+msgid "Welcome to Ease APP Template"
+msgstr "Vítejte v aplikaci AppTemplate"
+
+#: ../src/login.php:59
+msgid "Sign in"
+msgstr "Přihlásit"
+
+#: ../src/login.php:65
+msgid "the username you chose"
+msgstr "vámi zvolené uživatelské jméno"
+
+#: ../src/login.php:75 ../src/passwordrecovery.php:56
+msgid "Lost password recovery"
+msgstr "Obnova ztraceného hesla"
+
+#: ../src/logout.php:32
+msgid "Good bye"
+msgstr "Nashledanou"
+
+#: ../src/logout.php:37
+msgid "Thank you for your patronage and look forward to another visit"
+msgstr "Díky za váš zájem a těším se na další návštěvu"
+
+#: ../src/passwordrecovery.php:19
+msgid "Please enter your email."
+msgstr "Prosím zadejte svůj email."
+
+#: ../src/passwordrecovery.php:28
+#, php-format
+msgid "unknow email address %s"
+msgstr "neznámá emailová adresa %s"
+
+#: ../src/passwordrecovery.php:39
+#, php-format
+msgid "New password for %s"
+msgstr "Nové heslo pro %s"
+
+#: ../src/passwordrecovery.php:43
+msgid "Sign On informations was changed"
+msgstr "Přihlašovací údaje byly změněny"
+
+#: ../src/passwordrecovery.php:50
+#, php-format
+msgid "Your new password was sent to %s"
+msgstr "Vaše nové heslo bylo odesláno na %s"
+
+#: ../src/passwordrecovery.php:67
+msgid "Tip"
+msgstr "Tip"
+
+#: ../src/passwordrecovery.php:70
+msgid ""
+"Forgot your password? Enter your e-mail address you entered during the "
+"registration and we will send you a new one."
+msgstr ""
+"Zapoměli jste heslo ? Vložte svojí e-mailovou adresu kterou jste zadali "
+"během registrace a my vám pošleme nové."
+
+#: ../src/passwordrecovery.php:74
+msgid "Password Recovery"
+msgstr "Obnova hesla"
+
+#: ../src/passwordrecovery.php:78
+msgid "Send me new Password"
+msgstr "Poslat nové Heslo"
+
+#: ../src/passwordrecovery.php:92
+msgid "Continue"
+msgstr "Pokračuj"
+
+#: ../src/user.php:39
+msgid "Really delete ?"
+msgstr "Opravdu smazat ?"
+
+#: ../src/user.php:40
+msgid "No"
+msgstr "Ne"
+
+#: ../src/user.php:41
+msgid "Yes"
+msgstr "Ano"
+
+#: ../src/users.php:18
+msgid "Users overview"
+msgstr "Přehled uživatelů"
+
+#, fuzzy
+#~ msgid "O Programu"
+#~ msgstr "O Programu"
+
+#, fuzzy
+#~ msgid "Přehled uživatelů"
+#~ msgstr "Přehled výsledků"
+
+#, fuzzy
+#~| msgid "New %s"
+#~ msgid "Ne"
+#~ msgstr "Nový  %s"
+
+#, fuzzy
+#~| msgid "VAT no."
+#~ msgid "Ano"
+#~ msgstr "DIČ"
+
+#, fuzzy
+#~| msgid "Country"
+#~ msgid "Ship. Country"
+#~ msgstr "Země"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgid "Ship. Email"
+#~ msgstr "Email"
+
+#, fuzzy
+#~| msgid "Phone"
+#~ msgid "Ship. Phone"
+#~ msgstr "Telefon"
+
+#, fuzzy
+#~| msgid "Country"
+#~ msgid "Bill. country"
+#~ msgstr "Země"
+
+#, fuzzy
+#~| msgid "email"
+#~ msgid "Bill. email"
+#~ msgstr "email"
+
+#, fuzzy
+#~| msgid "Bank name"
+#~ msgid "Bill. bankname"
+#~ msgstr "Bankovní ústav"
+
+#~ msgid "prepared"
+#~ msgstr "v přípravě"
+
+#~ msgid "processing"
+#~ msgstr "zpracovává se"
+
+#~ msgid "done"
+#~ msgstr "vyřízeno"
+
+#~ msgid "wait for courier"
+#~ msgstr "čekáme kurýra"
+
+#~ msgid "problem"
+#~ msgstr "problém"
+
+#, fuzzy
+#~ msgid "Updated"
+#~ msgstr "Aktualizováno"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Edit %s"
+#~ msgstr "Upravit %s"
+
+#~ msgid "Remove %s"
+#~ msgstr "Odstranit %s"
+
+#~ msgid "Create new %s"
+#~ msgstr "Vytvořit nový %s"
+
+#~ msgid "Editing %s"
+#~ msgstr "Upravuji %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Odstraňuji %s"
+
+#, fuzzy
+#~ msgid "Are you sure you wish to delete %%d row of %s ?"
+#~ msgstr "Opravdu chcete  smazat %%d řádek z %s"
+
+#, fuzzy
+#~ msgid "Missing ColumnInfo name for %s/%s"
+#~ msgstr "Chybějící informace o názvu sloupce pro %s/%s"
+
+#, fuzzy
+#~ msgid "Missing ColumnInfo type for %s/%s"
+#~ msgstr "Chybějící typ slouce pro %s/%s"
+
+#, fuzzy
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "%s is not valid email"
+#~ msgstr "%s není platným emailem"
+
+#~ msgid "A %s is required"
+#~ msgstr "%s je vyžadováno"
+
+#~ msgid "A %s is not unique"
+#~ msgstr "%s není jedinečný"
+
+#, fuzzy
+#~ msgid "Field Type is not set for %s "
+#~ msgstr "Typ sloupečku není nastaven pro %s"
+
+#, fuzzy
+#~ msgid "Column \"%s\" of %s without type definition"
+#~ msgstr "Sloupec \"%s\" z %s bez definice typu"
+
+#~ msgid "Dismis"
+#~ msgstr "Zrušit"
+
+#~ msgid "OBU ID"
+#~ msgstr "OBU ID"
+
+#, fuzzy
+#~| msgid "Requests"
+#~ msgid "Request"
+#~ msgstr "Požadavek"
+
+#, fuzzy
+#~| msgid "Requests"
+#~ msgid "Original Request"
+#~ msgstr "Požadavek"
+
+#, fuzzy
+#~| msgid "Country"
+#~ msgid "OBU Count"
+#~ msgstr "Země"
+
+#~ msgid "OBU Go Home"
+#~ msgstr "OBU Go Home"
+
+#, fuzzy
+#~ msgid "Close"
+#~ msgstr "Zavřít"
+
+#, fuzzy
+#~ msgid "Reload"
+#~ msgstr "Načíst znovu"
+
+#, fuzzy
+#~ msgid "Filter"
+#~ msgstr "Filtr"
+
+#~ msgid "All pages"
+#~ msgstr "Všechny strany"
+
+#, fuzzy
+#~| msgid "Edit %s"
+#~ msgid "Edit"
+#~ msgstr "Upravit"
+
+#, fuzzy
+#~| msgid "Remove %s"
+#~ msgid "Remove"
+#~ msgstr "Odstranit"
+
+#~ msgid "From"
+#~ msgstr "Od"
+
+#~ msgid "To"
+#~ msgstr "Adresát"
+
+#, fuzzy
+#~| msgid "Customer"
+#~ msgid "Customers"
+#~ msgstr "Zákazníci"
+
+#~ msgid "Requests"
+#~ msgstr "Požadavky"
+
+#, fuzzy
+#~| msgid "Call courier"
+#~ msgid "Call Courier"
+#~ msgstr "Zavolat kurýra"
+
+#~ msgid "Language"
+#~ msgstr "Jazyk"
+
+#~ msgid "Addresses"
+#~ msgstr "Adresy"
+
+#~ msgid "New Address"
+#~ msgstr "Nová adresa"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "Jméno"
+
+#~ msgid "City"
+#~ msgstr "Město"
+
+#~ msgid "Country"
+#~ msgstr "Země"
+
+#~ msgid "Address"
+#~ msgstr "Adresa"
+
+#, fuzzy
+#~ msgid "Vat No"
+#~ msgstr "DIČ"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#, fuzzy
+#~| msgid "BIC SWIFT"
+#~ msgid "SWIFT"
+#~ msgstr "BIC SWIFT"
+
+#~ msgid "Call courier"
+#~ msgstr "Zavolat kurýra"
+
+#~ msgid "Customer"
+#~ msgstr "Zákazník"
+
+#, fuzzy
+#~| msgid "OBU Go Home"
+#~ msgid "OBU Go Home soon"
+#~ msgstr "OBU Go Home"
+
+#, fuzzy
+#~| msgid "Thank you for using %s services."
+#~ msgid "thank you for using our services."
+#~ msgstr "Děkujeme, že využíváte služeb %s. Velice si toho vážíme."
+
+#~ msgid ""
+#~ "Please make sure you have included: %d x OBU device, %d x vehicle "
+#~ "registration license n.2 copy and signed form into the package with your "
+#~ "OBU Premid units."
+#~ msgstr ""
+#~ "Prosíme ujistěte se, že máte přiloženo: %d x OBU zařízení, %d x velký "
+#~ "technčák a podepsaný formuluář ve svém balíčku."
+
+#~ msgid ""
+#~ "Only with the included paperwork, we will be able to properly complete "
+#~ "the request."
+#~ msgstr ""
+#~ "Pouze s přiloženými doklady budeme schopni v pořádku vyřídit váš "
+#~ "požadavek."
+
+#~ msgid ""
+#~ "(you can download the form anytime on the website after you log in to "
+#~ "your OBU Go__Home account %s)"
+#~ msgstr ""
+#~ "(formulář můžete stáhnout kdykoliv po přihlášení do svého účtu v "
+#~ "aplikaci  OBU Go__Home %s)"
+
+#~ msgid ""
+#~ "Right now we are sending a courier your way. He shall arrive in the "
+#~ "following days. He will be contacting the contact person from your filled "
+#~ "form."
+#~ msgstr ""
+#~ "Právě k vám posíláme kurýra. On dorazí v příštích dnech. Bude kontaktovat "
+#~ "osobu zadanou ve formuláři."
+
+#~ msgid ""
+#~ "If you wish to change the contact name, email or number, please contact "
+#~ "our customer support on jana.borbina@obugohome.eu"
+#~ msgstr ""
+#~ "Pokud chcete změnit kontaktní jméno, email nebo číslo,  kontaktujte "
+#~ "prosím náši zákaznickou podporu na adrese  jana.borbina@obugohome.eu"
+
+#, fuzzy
+#~| msgid "Your new password was sent to %s"
+#~ msgid "Message %s was sent to %s"
+#~ msgstr "Vaše nové heslo bylo odesláno na %s"
+
+#~ msgid "Billing information"
+#~ msgstr "Platební údaje"
+
+#~ msgid "Send Conditions by mail"
+#~ msgstr "Odeslat dokumenty mailem"
+
+#~ msgid "Person"
+#~ msgstr "Osoba"
+
+#~ msgid "ZIP"
+#~ msgstr "Psč"
+
+#~ msgid "email"
+#~ msgstr "email"
+
+#~ msgid "Submit"
+#~ msgstr "Uložit"
+
+#~ msgid "Saving address"
+#~ msgstr "Ukládání adresy"
+
+#~ msgid "Shipping address is the same as billing"
+#~ msgstr "Odesílací adresa je shodná s fakturační"
+
+#~ msgid "Company number"
+#~ msgstr "IČO"
+
+#~ msgid "Company name"
+#~ msgstr "Název společnosti"
+
+#~ msgid "Tax ID"
+#~ msgstr "DIČ"
+
+#, fuzzy
+#~| msgid "without work"
+#~ msgid "without country code"
+#~ msgstr "bez práce"
+
+#~ msgid "Bank name"
+#~ msgstr "Bankovní ústav"
+
+#~ msgid "Account owner"
+#~ msgstr "Vlastník účtu"
+
+#~ msgid "BIC SWIFT"
+#~ msgstr "BIC SWIFT"
+
+#~ msgid "EULA Consent"
+#~ msgstr "Souhlas s všeobecnými obchodními podmínkami"
+
+#~ msgid "I Agree to Terms"
+#~ msgstr "Příjmám podmínky"
+
+#~ msgid "End-User License Agreement (EULA)"
+#~ msgstr "Smlouva s koncovým uživatelem (EULA)"
+
+#~ msgid "GDPR Consent"
+#~ msgstr "GDPR Souhlas"
+
+#~ msgid "Consent to Personal data processing (GDPR)"
+#~ msgstr "Souhlas se zpracováním osobních údajů (GDPR)"
+
+#, fuzzy
+#~| msgid "Call courier"
+#~ msgid "Call us"
+#~ msgstr "Zavolat kurýra"
+
+#~ msgid "We do not send the courier for pickup anymore​."
+#~ msgstr "Již pro jednotky neposíláme kurýra."
+
+#~ msgid "if you have questions, contact us on the customer line"
+#~ msgstr "V případě otázek kontaktujte zákaznickou linku"
+
+#~ msgid "Contact form"
+#~ msgstr "Napište nám"
+
+#~ msgid "Your Email"
+#~ msgstr "Váš email"
+
+#~ msgid "Send"
+#~ msgstr "Odeslat"
+
+#~ msgid ""
+#~ "We cooperate with the directorate of roads and highways in the czech "
+#~ "republic, there are guaranteed to you that we will get min. 30&percnt; of "
+#~ "price of your OBU back to your account."
+#~ msgstr ""
+#~ "Spolupracujeme s ředitelstvím silnic a dálnic v ČR, proto vám "
+#~ "garantujeme, že za vaše zdánlivě bezcenné OBU získáme min. 30% ze záloh i "
+#~ "zůstatku zpět na váš účet."
+
+#~ msgid "The final deadline for submission is 31.11.2020"
+#~ msgstr "Poslední termín odevzdání je 31.11.2020"
+
+#~ msgid "Apply if your OBU Permid was"
+#~ msgstr "Vylpňte, pokud bylo Vaše OBU Premid od Kapsch"
+
+#~ msgid "used at least once in the past 12 months!"
+#~ msgstr "použito alespoň jednou během posledních dvanácti měsíců!"
+
+#~ msgid "Time remaining"
+#~ msgstr "Zbývající čas"
+
+#~ msgid "Days"
+#~ msgstr "Dní"
+
+#~ msgid "Hours"
+#~ msgstr "Hodin"
+
+#~ msgid "Minutes"
+#~ msgstr "Minut"
+
+#~ msgid "Seconds"
+#~ msgstr "Vteřin"
+
+#~ msgid ""
+#~ "Don't let your money be forfeited! fill in the online form below, enter "
+#~ "the relevant documents, pack your two in a box, choose a possible pick-up "
+#~ "time and wait for the money we will send you without work!"
+#~ msgstr ""
+#~ "Nenechte své peníze propadnout! níže vyplňte on-line formulář, zadejte "
+#~ "příslušné dokumenty, zabalte své obu do krabice, zvolte čas možného "
+#~ "vyzvednutí a počkejte si na peníze, které vám bez práce pošleme!"
+
+#, fuzzy
+#~| msgid "Use chosen"
+#~ msgid "Please choose"
+#~ msgstr "Prosím zvolte službu"
+
+#~ msgid "Austria"
+#~ msgstr "Rakousko"
+
+#~ msgid "Belgium"
+#~ msgstr "Belgie"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulharsko"
+
+#~ msgid "Cyprus"
+#~ msgstr "Kypr"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Česká Republika"
+
+#~ msgid "Germany"
+#~ msgstr "Německo"
+
+#~ msgid "Denmark"
+#~ msgstr "Dánsko"
+
+#~ msgid "Estonia"
+#~ msgstr "Estonsko"
+
+#~ msgid "Spain"
+#~ msgstr "Španělsko"
+
+#~ msgid "Finland"
+#~ msgstr "Finsko"
+
+#~ msgid "France"
+#~ msgstr "Francie"
+
+#~ msgid "Greece"
+#~ msgstr "Řecko"
+
+#~ msgid "Croatia"
+#~ msgstr "Chorvatsko"
+
+#~ msgid "Hungary"
+#~ msgstr "Maďarsko"
+
+#~ msgid "Ireland"
+#~ msgstr "Irsko"
+
+#~ msgid "Italy"
+#~ msgstr "Itálie"
+
+#~ msgid "Lithuania"
+#~ msgstr "Lotyšsko"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Lucembursko"
+
+#~ msgid "Latvia"
+#~ msgstr "Litva"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Netherlands"
+#~ msgstr "Holandsko"
+
+#~ msgid "Poland"
+#~ msgstr "Polsko"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugalsko"
+
+#~ msgid "Romania"
+#~ msgstr "Rumunsko"
+
+#~ msgid "Sweden"
+#~ msgstr "Švédsko"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slovinsko"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovensko"
+
+#~ msgid "Fill out a short"
+#~ msgstr "Vyplňte krátký"
+
+#~ msgid "form on the website"
+#~ msgstr "formulář na webu"
+
+#~ msgid "Click here"
+#~ msgstr "Klikněte zde"
+
+#~ msgid "Scan"
+#~ msgstr "Oskenujte"
+
+#~ msgid "related documents"
+#~ msgstr "příslušné dokumenty"
+
+#, fuzzy
+#~ msgid "for your OBU"
+#~ msgstr "Váš tým OBU Go__Home."
+
+#~ msgid "Pack OBU"
+#~ msgstr "Zabalte OBU"
+
+#~ msgid "and documents"
+#~ msgstr "a příslušné dokumenty"
+
+#~ msgid "from step 01 and 02"
+#~ msgstr "z kroků 01 a 02"
+
+#~ msgid "We will pick up"
+#~ msgstr "Váš balíček"
+
+#~ msgid "the package at the"
+#~ msgstr "vyzvedneme na vámi"
+
+#~ msgid "address provided by you"
+#~ msgstr "poskytnuté adrese"
+
+#~ msgid "The money arrives"
+#~ msgstr "Peníze pošleme"
+
+#~ msgid "directly to your"
+#~ msgstr "přímo na váš"
+
+#~ msgid "account"
+#~ msgstr "účet"
+
+#~ msgid "no extra work"
+#~ msgstr "bez práce"
+
+#~ msgid "Get"
+#~ msgstr "Dostaňte"
+
+#~ msgid "your money back"
+#~ msgstr "své peníze zpět"
+
+#~ msgid "You can NOW get back some of your money"
+#~ msgstr "Nyní můžete získat zpět"
+
+#~ msgid "for your OBU Premid by Kapsch"
+#~ msgstr "peníze za vaše OBU Premid od Kapsch"
+
+#~ msgid "It's easy"
+#~ msgstr "Je to snadné"
+
+#~ msgid "In cooperation with transport authorities, we can guarantee you"
+#~ msgstr "Ve spolupráci s dopravními autoritami Vám garantujeme"
+
+#~ msgid "back for each OBU box If your OBU Premid was used at least once"
+#~ msgstr "zpět za každou jednotku OBU, pokud byla použita alespoň jednou,"
+
+#~ msgid "in the past 12 months."
+#~ msgstr "v průběhu posledních 12ti měsíců."
+
+#~ msgid "Account"
+#~ msgstr "Účet"
+
+#~ msgid "address_id"
+#~ msgstr "address_id"
+
+#~ msgid "Shipping address"
+#~ msgstr "Odesílací adresy"
+
+#~ msgid "Use chosen"
+#~ msgstr "Použít vybrané"
+
+#~ msgid "Add new shipping address"
+#~ msgstr "Přidat novou odesílací adresu"
+
+#~ msgid "Vehicle registration certificate number two"
+#~ msgstr "Technický průkaz vozidla číslo dvě"
+
+#~ msgid "Add OBU ID"
+#~ msgstr "Přidejte OBU ID"
+
+#~ msgid ""
+#~ "Please print this form. Then add the sinature and the stamp. It must be "
+#~ "part of package with OBU units."
+#~ msgstr ""
+#~ "Prosíme vytiskněte tento formulář. Podepište jej a orazítkujte. Musí být "
+#~ "součástí balíčku s jednotkami OBU"
+
+#~ msgid "European Union"
+#~ msgstr "Evropská unie"
+
+#~ msgid "General Business Conditions"
+#~ msgstr "Všeobecné obchodní podmínky"
+
+#~ msgid "GDPR"
+#~ msgstr "GDPR"
+
+#~ msgid "Your request was accepted"
+#~ msgstr "Vaš požadavek byl přijat"
+
+#~ msgid "Please check your mailbox for furher instructions."
+#~ msgstr ""
+#~ "Prosíme zkontrolujte svůj mailbox pro další instrukce jak postupovat při "
+#~ "vracení vašeho OBU."
+
+#~ msgid ""
+#~ "if the message doesn't arrive within five minutes, please check your spam "
+#~ "folder"
+#~ msgstr ""
+#~ "pokud zpráva nedorazí během pěti minut, prosím zkontrolujte svojí složku "
+#~ "s nevyžádanou poštou"
+
+#~ msgid "Obu Go__Home request"
+#~ msgstr "Požadavek OBU Go__Home"
+
+#~ msgid "OBU Go__Home"
+#~ msgstr "OBU Go__Home"
+
+#~ msgid "Dear customer,"
+#~ msgstr "Vážený zákazníku,"
+
+#~ msgid "Thank you for using %s services."
+#~ msgstr "Děkujeme, že využíváte služeb %s. Velice si toho vážíme."
+
+#~ msgid "We will now simply finish the process in three simple steps:"
+#~ msgstr "Vše společně zvládneme v jednoduchých třech krocích:"
+
+#~ msgid "Please print out your filled form."
+#~ msgstr "Vytiskněte prosím vyplněný formulář."
+
+#~ msgid ""
+#~ "Sign and stamp the printed form and pack it to the same box as the OBU "
+#~ "units."
+#~ msgstr ""
+#~ "Formulář podepište, orazítkujte a vložte do balíčku k OBU jednotkám."
+#~ "Formulář podepište, orazítkujte a vložte do balíčku k OBU jednotkám."
+
+#~ msgid ""
+#~ "Confirm that the package is ready for pick-up by clicking on the button "
+#~ "BOX IS READY."
+#~ msgstr "Potvrďte jednoduše tlačítikem BALÍČEK PŘIPRAVEN."
+
+#~ msgid ""
+#~ "Courier will arrive within two days to the address you have provided."
+#~ msgstr "Kurýrní služba dorazí do dvou dnů na vámi zvolenou adresu."
+
+#~ msgid ""
+#~ "You can track the status of the process in your account on https://"
+#~ "obugohome.eu/"
+#~ msgstr "Stav procesu můžete sledovat ve svém účtu na https://obugohome.eu/"
+
+#~ msgid "Do not hesitate to contact our customer support on email address %s"
+#~ msgstr ""
+#~ "V případě jakýchkoliv dotazů kontaktujte prosím zákaznickou podporu na "
+#~ "emailu  %s"
+
+#~ msgid "Best Regards!"
+#~ msgstr "Přejeme krásný den."
+
+#~ msgid "Your %s team."
+#~ msgstr "Váš tým %s."
+
+#~ msgid "Request no.: %s"
+#~ msgstr "Požadavek č.: %s"
+
+#~ msgid "Registration image already exists in database"
+#~ msgstr "Obrázek technického průkazu je již v databázi"
+
+#~ msgid "New request was created"
+#~ msgstr "Vaš požadavek byl vytvořen"
+
+#~ msgid "OBU %s already exist in request"
+#~ msgstr "OBU %s již v databázi existuje"
+
+#~ msgid "Please confirm Registration processing"
+#~ msgstr "Prosíme potvrďte zpracování"
+
+#~ msgid "Or add another OBU number with Registration image"
+#~ msgstr ""
+#~ "Nebo přidejte další číslo OBU s obrázkem velkého technického průkazu"
+
+#~ msgid "Process order"
+#~ msgstr "Zpracovat požadavek"
+
+#~ msgid "Please add at least one OBU number with Registration image"
+#~ msgstr "Please add at least one OBU number with Registration image"
+
+#~ msgid "No."
+#~ msgstr "Č."
+
+#~ msgid "Shipping addr."
+#~ msgstr "Odesílací adr."
+
+#~ msgid "OBU"
+#~ msgstr "OBU"
+
+#~ msgid "Modified"
+#~ msgstr "Upraveno"
+
+#~ msgid "Resend mail"
+#~ msgstr "Znovu odeslat mail"
+
+#~ msgid "default"
+#~ msgstr "výchozí"
+
+#~ msgid "Box is ready"
+#~ msgstr "Balíček je připraven"
+
+#~ msgid "New request"
+#~ msgstr "Nový požadavek"
+
+#~ msgid "Let OBU GO__HOME!"
+#~ msgstr "Nechte jít OBU domů!"
+
+#~ msgid "Shipping information"
+#~ msgstr "Údaje odesilatele"
+
+#~ msgid "Town"
+#~ msgstr "Město"
+
+#~ msgid "Complete The form"
+#~ msgstr "Vyplňte formulář"
+
+#~ msgid ""
+#~ "Fill in the form on the page with the basic information needed to return "
+#~ "the device. Deposit for the equipment will be transferred directly to "
+#~ "your bank account immediately after the amount arrives from Road and "
+#~ "Motorway Directorate."
+#~ msgstr ""
+#~ "Vyplňte formulář na stránce se základními údaji potřebnými pro vrácení "
+#~ "vašich OBU. Připravte si příslušné dokumenty (technický průkaz číslo 2) a "
+#~ "pokračujte dle instrukcí ve webové aplikaci."
+
+#~ msgid "OBU go home"
+#~ msgstr "OBU go home"
+
+#~ msgid ""
+#~ "PACK OBU INTO THE BOX, attach the signed and stamped form you have just "
+#~ "filled on this website and technical documentation such as Vehicle "
+#~ "registration certificate to which your OBU was registered for. We will "
+#~ "pick it up on the address you provide using traditional courier services "
+#~ "and let your OBU GO HOME."
+#~ msgstr ""
+#~ "OBU ZABALTE DO KRABICE. Připojte podepsaný, orazítkovaný formulář k "
+#~ "vrácení a naskenované registrační doklady číslo 2 (velký technický "
+#~ "průkaz).  A my pomocí  přepravní služby balíček vyzvedneme a pošleme  OBU "
+#~ "zpět domů."
+
+#~ msgid ""
+#~ "Don't let the legislation win. Thanks to our close cooperation with Road "
+#~ "and Motorway Directorate we can get you 20 &euro;"
+#~ msgstr ""
+#~ "Využijte legislativu a získejte zpět své peníze. Díky spolupráci s ŘSD "
+#~ "vám vrátíme 500 Kč"
+
+#~ msgid ""
+#~ "of the deposit back.  We will send the money directly to your provided "
+#~ "bank account."
+#~ msgstr "zpět. Peníze vám pošleme bez práce na váš účet."
+
+#~ msgid "We pay for a return"
+#~ msgstr "Vrátíme vám peníze"
+
+#, fuzzy
+#~| msgid "Please accept terms and conditions"
+#~ msgid "Please wait to load country towns ..."
+#~ msgstr "Prosíme přijměte podmínky smlouvy"
+
+#, fuzzy
+#~| msgid "Please enter your email."
+#~ msgid "Please select your city ..."
+#~ msgstr "Prosím zadejte svůj email."
+
+#~ msgid "Functional cookies"
+#~ msgstr "Funkční cookes"
+
+#~ msgid ""
+#~ "These are the cookies we set purely for functionalities in our websites. "
+#~ "We can not track you in any way by settings these. For example if we "
+#~ "didn't set a cookie that stored these settings, we wouldn't be able to "
+#~ "not constantly prompt you with this screen."
+#~ msgstr ""
+#~ "Jedná se o soubory cookie, které nastavujeme čistě pro funkci našich "
+#~ "webových stránek. Jejich nastavením vás nemůžeme žádným způsobem "
+#~ "sledovat. Pokud bychom například nenastavili soubor cookie, který by "
+#~ "ukládal tato nastavení, nebyli bychom schopni vás s touto obrazovkou "
+#~ "neustále nevyzývat."
+
+#~ msgid "Analytical cookies"
+#~ msgstr "Analytické cookies"
+
+#~ msgid ""
+#~ "With these cookies, behaviour on our website can be monitored through "
+#~ "third party services. These cookies can be used by said third parties to "
+#~ "track you."
+#~ msgstr ""
+#~ "Pomocí těchto souborů cookie lze sledovat chování na našich webových "
+#~ "stránkách prostřednictvím služeb třetích stran. Tyto soubory cookie mohou "
+#~ "uvedené třetí strany použít ke sledování."
+
+#~ msgid ""
+#~ "These cookies can not be unset during your visit to this website, because "
+#~ "this would result in degraded performance."
+#~ msgstr ""
+#~ "Tyto soubory cookie nelze během vaší návštěvy tohoto webu deaktivovat, "
+#~ "protože by to vedlo ke snížení výkonu."
+
+#~ msgid "Cookie Settings"
+#~ msgstr "Nastavení Sušenek"
+
+#~ msgid "Change your cookie settings."
+#~ msgstr "Změňte nastavení souborů cookie."
+
+#~ msgid "Accept Settings"
+#~ msgstr "Příjmout nastavení"
+
+#~ msgid ""
+#~ "To comply with new regulations regarding GDPR we are now obligated by law "
+#~ "to provide you with settings surrounding cookies. We have not set any "
+#~ "cookies that would be able to track you. If you wish to change these "
+#~ "settings later on, we will provide you with a button in order to do so."
+#~ msgstr ""
+#~ "Abychom vyhověli novým předpisům týkajícím se GDPR, jsme nyní ze zákona "
+#~ "povinni poskytnout vám nastavení týkající se cookies. Nenastavili jsme "
+#~ "žádné cookies, které by vás mohly sledovat. Pokud si přejete tato "
+#~ "nastavení později změnit, poskytneme vám tlačítko, abychom to mohli "
+#~ "provést."
+
+#~ msgid "Don't let the legislation win and get your money back!"
+#~ msgstr "Využijte legislativní možnosti a získejte zpět své peníze!"
+
+#~ msgid ""
+#~ "thank you for your interest in our services. General Terms and Conditions "
+#~ "of %s services are included as an attachment to this email. Please follow "
+#~ "the instructions in your account on %s"
+#~ msgstr ""
+#~ "děkujeme za projevený zájem o naše služby. V příloze naleznete všeobecné "
+#~ "obchodní podmínky služby %s. Dále prosím pokračujte dle instrukcí ve "
+#~ "vašem účtu na %s"
+
+#~ msgid ""
+#~ "To login to your account please use your email and this password: %s "
+#~ msgstr "Pro přihlášení můžete použít svůj email a toto heslo: %s "
+
+#~ msgid "Your OBU Go__Home team."
+#~ msgstr "Váš tým OBU Go__Home."
+
+#~ msgid "Saving account data"
+#~ msgstr "Ukládám data účtu"
+
+#~ msgid "Update your billing information"
+#~ msgstr "Zaktualizovat platební údaje"
+
+#~ msgid "Your billing information"
+#~ msgstr "Vaše platební informace"
+
+#, fuzzy
+#~ msgid "entries"
+#~ msgstr "položky"
+
+#, fuzzy
+#~ msgid "keys"
+#~ msgstr "klíče"
+
+#~ msgid "Data saved"
+#~ msgstr "Data uložena"
+
+#, fuzzy
+#~| msgid "Send new Password"
+#~ msgid "Set new password"
+#~ msgstr "Poslat nové Heslo"
+
+#, fuzzy
+#~| msgid "Edit %s"
+#~ msgid "Editor"
+#~ msgstr "Editor"
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr "Smazat"
+
+#, fuzzy
+#~| msgid "User"
+#~ msgid "Users"
+#~ msgstr "Uživatelé"
+
+#, fuzzy
+#~ msgid "Chybné volání"
+#~ msgstr "Chybné volání"
+
+#~ msgid "Error saving to database"
+#~ msgstr "Chyba ukládání do databáze"
+
+#, fuzzy
+#~ msgid "Class"
+#~ msgstr "Třída"
+
+#, fuzzy
+#~ msgid "Table"
+#~ msgstr "Tabulka"
+
+#, fuzzy
+#~ msgid "Field"
+#~ msgstr "Sloupec"
+
+#~ msgid "Value"
+#~ msgstr "Hodnota"
+
+#~ msgid "Wrong call"
+#~ msgstr "Špatné volání"
+
+#, fuzzy
+#~| msgid "OBU Go Home"
+#~ msgid "OBU Go Home Admin"
+#~ msgstr "OBU Go Home"
+
+#, fuzzy
+#~| msgid "Call courier"
+#~ msgid "Courier"
+#~ msgstr "Zavolat kurýra"
+
+#~ msgid "Bring"
+#~ msgstr "Přivez"
+
+#~ msgid "Logs"
+#~ msgstr "Logy"
+
+#~ msgid "Dismis All"
+#~ msgstr "Zruśit vśe"
+
+#, fuzzy
+#~| msgid "Obu Go__Home request"
+#~ msgid "Obu %s moved to request %s"
+#~ msgstr "Požadavek OBU Go__Home"
+
+#~ msgid "Registration image not attached"
+#~ msgstr "Obrázek Techničáku není přiložen"
+
+#, fuzzy
+#~| msgid "OBU ID"
+#~ msgid "BU ID"
+#~ msgstr "OBU ID"
+
+#, fuzzy
+#~ msgid "Status change"
+#~ msgstr "Změna hesla"
+
+#~ msgid "Please accept terms and conditions"
+#~ msgstr "Prosíme přijměte podmínky smlouvy"
+
+#~ msgid "Please provide Consent to Personal data processing"
+#~ msgstr "Prosím poskytněte souhlas se zpracováním osobních údajů"
+
+#~ msgid "Already known customer. Please sign in"
+#~ msgstr "Již vás máme v databázi. Prosím přihlašte se"
+
+#~ msgid "Contact Us"
+#~ msgstr "Napište nám"
+
+#~ msgid "Application for OBU Refunding"
+#~ msgstr "Žádost o vrácení  Kauce za OBU"
+
+#~ msgid "your@email.com"
+#~ msgstr "muj@email.cz"
+
+#~ msgid "Directorate of Roads and Motorways of the Czech Republic"
+#~ msgstr "Ředitelství silnic a dálnic České Republiky"
+
+#~ msgid "used once for a period of 12 months!"
+#~ msgstr "použito alespoň jednou během dvanácti měsíců!"
+
+#~ msgid "Change Billing information"
+#~ msgstr "Změň platební údaje"
+
+#~ msgid "Please use your mail as username. Your password is %s "
+#~ msgstr ""
+#~ "Prosím použijte váší emailovou adresu jako přihlašovací jméno. Vaše heslo "
+#~ "je %s"
+
+#~ msgid "the technical card"
+#~ msgstr "technický průkaz"
+
+#~ msgid "and its"
+#~ msgstr "a příslušné"
+
+#, fuzzy
+#~| msgid ""
+#~| "back for each Premid OBU - although the OBU collection has officially"
+#~ msgid ""
+#~ "back for each Premid OBU. If that you were your both min. used once for "
+#~ msgstr "zpět za každou jednotku OBU Premid – přestože sběr OBU oficiálně"
+
+#~ msgid "a period of 12 months!"
+#~ msgstr "během dvanácti měsíců"
+
+#~ msgid "Send OBU back home!"
+#~ msgstr "Pošli OBU zpět domů!"
+
+#, fuzzy
+#~| msgid ""
+#~| "PACK THE OBU INTO THE BOX, attach the signed power of attorney, the "
+#~| "scanned registration documents in which the Box was registered and we "
+#~| "will pick it up from you with the help of DHL and send the OBU back home."
+#~ msgid ""
+#~ "PACK THE OBU INTO THE BOX, attach the signed power of attorney, the "
+#~ "scanned registration documents in which the Box was registered and we "
+#~ "will pick it up from you with the help of PPL and send the OBU back home."
+#~ msgstr ""
+#~ "OBU ZABALTE DO KRABICE, připojte podepsanou plnou moc (odkaz), "
+#~ "naskenované registrační doklady, do kterých byl zaregistrován Box a my si "
+#~ "ho u Vás za pomocí DHL vyzvedneme a OBU pošleme zpět domů."
+
+#, fuzzy
+#~| msgid ""
+#~| "Don't let the legislation win, thanks to our close cooperation with ŘSD "
+#~| "we can get 30&percnt; of the total balance (deposit + balance) back to "
+#~| "your account within 15 working days of collecting the package."
+#~ msgid ""
+#~ "Don't let the legislation win, thanks to our close cooperation with RSD "
+#~ "we can get 30&percnt; of the total balance (deposit + balance) back to "
+#~ "your account within 15 working days of collecting the package."
+#~ msgstr ""
+#~ "Nenechte vyhrát legislativu, díky naší úzké spolupráci s ŘSD dokážeme "
+#~ "získat 30% z celkového zůstatku (záloha + zůstatek) zpět na Váš účet do "
+#~ "15 pracovních dní od vyzvednutí balíčku."
+
+#~ msgid "ended"
+#~ msgstr "skoničil"
+
+#~ msgid "steps"
+#~ msgstr "kroky"
+
+#, fuzzy
+#~ msgid "potvrzení hesla"
+#~ msgstr "potvrzení hesla"
+
+#, fuzzy
+#~ msgid "změna hesla"
+#~ msgstr "Změna hesla"
+
+#~ msgid "Company code cannot be empty"
+#~ msgstr "Kód firmy nemůže být prázdný"
+
+#~ msgid "Cannot obtain organisation identification number for FlexiBee %s"
+#~ msgstr "Nemohu získat Ičo pro FlexiBee %s"
+
+#, fuzzy
+#~ msgid "Hook %s was registered"
+#~ msgstr "Hook %s byl registrován"
+
+#, fuzzy
+#~ msgid "Hook %s not registered"
+#~ msgstr "Hook %s nebyl registrován"
+
+#, fuzzy
+#~ msgid "ChangesAPI was enabled"
+#~ msgstr "API Změn bylo povoleno"
+
+#, fuzzy
+#~ msgid "ChangesAPI was disabled"
+#~ msgstr "API změn bylo zakázáno"
+
+#~ msgid "About TaxTorro"
+#~ msgstr "O TaxTorro"
+
+#, fuzzy
+#~ msgid "Uložit"
+#~ msgstr "Uložit"
+
+#, fuzzy
+#~ msgid "Save and next"
+#~ msgstr "Ulož & další"
+
+#, fuzzy
+#~ msgid "Jméno"
+#~ msgstr "Jméno"
+
+#, fuzzy
+#~ msgid "Sign in as admin first"
+#~ msgstr "Nejprve se prosím přihlaš jako admin"
+
+#, fuzzy
+#~ msgid "Mail address is too short"
+#~ msgstr "Mailová adresa je příliš krátká"
+
+#, fuzzy
+#~ msgid "Sign On"
+#~ msgstr "Registrace"
+
+#~ msgid "FlexiBee instance"
+#~ msgstr "Instance FlexiBee"
+
+#, fuzzy
+#~ msgid "Signed As: "
+#~ msgstr "Příhlášen jako"
+
+#, fuzzy
+#~ msgid "Singn In"
+#~ msgstr "Registrace"
+
+#, fuzzy
+#~ msgid "Oprávnění"
+#~ msgstr "Oprávnění"
+
+#, fuzzy
+#~ msgid "Nastavení"
+#~ msgstr "Nastavení"
+
+#, fuzzy
+#~ msgid "Změna hesla"
+#~ msgstr "Změna hesla"
+
+#, fuzzy
+#~ msgid "Init FlexiBee"
+#~ msgstr "Iniciace FlexiBee"
+
+#, fuzzy
+#~ msgid "Transakce"
+#~ msgstr "Transakce"

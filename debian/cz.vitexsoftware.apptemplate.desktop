@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=Ease AppTemplate
+Comment=Ease Framework App example
+Categories=Dev
+
+Icon=apptemplate
+Exec=sensible-browser http://localhost/apptemplate/
+Terminal=false
+

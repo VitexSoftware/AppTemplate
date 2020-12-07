@@ -1,0 +1,22 @@
+Ease AppTemplate
+-----------------
+
+
+You can install initial demo data using command:
+
+```
+sudo phinx seed:run -c /usr/lib/apptemplate/phinx-adapter.php
+```
+or 
+
+```
+ phinx seed:run -c /usr/lib/apptemplate/phinx-adapter.php -s AppSeeder
+```
+
+to load only plugins definitions.
+
+If you use sqlite database its data file is /var/lib/apptemplate/apptemplate.sqlite
+
+
+Then you can log in as user "demo" with password "demo" on  http://localhost/apptemplate/
+

@@ -1,0 +1,144 @@
+#!/bin/sh
+# postinst script for apptemplate
+set -e
+
+. /usr/share/debconf/confmodule
+
+db_get composer/WEB_USER
+WEBUSER=$RET
+mkdir -p /var/lib/apptemplate /var/lib/composer
+chown $WEBUSER /var/lib/apptemplate /var/lib/composer -R
+echo '{}' > /usr/lib/apptemplate/composer.lock
+chown $WEBUSER /usr/lib/apptemplate/composer.lock
+su - $WEBUSER -s /bin/bash -c 'COMPOSER_HOME="/var/lib/composer" composer -o install -d /usr/lib/apptemplate/'
+
+
+if [ -f /usr/share/dbconfig-common/dpkg/postinst ]; then
+    . /usr/share/dbconfig-common/dpkg/postinst
+    dbc_generate_include_args="-o template_infile=/usr/lib/apptemplate/.env.template"
+    dbc_generate_include=template:/usr/lib/apptemplate/.env
+    dbc_generate_include_owner="root:www-data"
+    dbc_generate_include_perms="664"
+    dbc_dbfile_owner="www-data:www-data"
+    dbc_dbfile_perms="0664"
+    dbc_dbuser=apptemplate
+    dbc_dbname=apptemplate
+
+    dbc_go apptemplate "$@"
+    phinx migrate -c /usr/lib/apptemplate/phinx-adapter.php
+    echo 'run "sudo phinx seed:run -c /usr/lib/apptemplate/phinx-adapter.php" to load demo data'
+    echo 'run "sudo phinx seed:run -c /usr/lib/apptemplate/phinx-adapter.php -s AppSeeder" to load only plugins demo setup'
+
+
+	if [ -f /var/lib/apptemplate/multiflexibeesetup ] ; then
+            chown root:www-data /var/lib/apptemplate/
+            chmod ug+rw /var/lib/apptemplate/
+            chown root:www-data /var/lib/apptemplate/multiflexibeesetup
+            chmod ug+rw /var/lib/apptemplate/multiflexibeesetup
+        fi
+    
+
+fi
+
+
+
+pathfind() {
+    OLDIFS="$IFS"
+    IFS=:
+    for p in $PATH; do
+        if [ -x "$p/$*" ]; then
+            IFS="$OLDIFS"
+            return 0
+        fi
+    done
+    IFS="$OLDIFS"
+    return 1
+}
+
+
+lighttpd_install() {
+	if [ -d /etc/lighttpd/conf-available ] && [ ! -f /etc/lighttpd/conf-available/50-apptemplate.conf ] ; then
+		if pathfind lighty-enable-mod; then
+			ln -s /etc/apptemplate/lighttpd.conf /etc/lighttpd/conf-available/50-apptemplate.conf
+			if ! { lighty-enable-mod apptemplate fastcgi fastcgi-php || [ $? -eq 2 ]; } then
+				return 1
+			fi
+		fi
+	fi
+}
+
+[ ! -e /usr/share/apache2/apache2-maintscript-helper ] || \
+    . /usr/share/apache2/apache2-maintscript-helper
+apache_install() {
+        if [ -e /usr/share/apache2/apache2-maintscript-helper ] ; then
+	    if [ -d /etc/apache2/conf-available ] && [ ! -e /etc/apache2/conf-available/apptemplate.conf ]; then
+                ln -s /etc/apptemplate/apache.conf /etc/apache2/conf-available/apptemplate.conf
+	    fi
+            # Remove old symlink if present
+            if [ -d /etc/apache2/conf.d ] && [ -h /etc/apache2/conf.d/apptemplate ]; then
+                rm /etc/apache2/conf.d/apptemplate
+            fi
+            # Enable the configuration
+            apache2_invoke enconf apptemplate.conf
+        fi
+}
+
+    . /usr/share/debconf/confmodule
+
+
+case "$1" in
+    configure)
+	# Handle webserver reconfiguration/restart ; stolen from zabbix package
+	db_get apptemplate/reconfigure-webserver || true
+	webservers="$RET"
+	restart=""
+
+	for webserver in $webservers; do
+            webserver=${webserver%,}
+            case "$webserver" in
+                lighttpd)
+		    lighttpd_install
+                    ;;
+                apache2)
+		    apache_install
+                    ;;
+            esac
+            pathfind $webserver || continue
+            restart="$restart $webserver"
+        done
+
+        db_get apptemplate/restart-webserver || true
+	res="$RET"
+	db_stop || true
+	if [ "$res" = "true" ]; then
+            for webserver in $restart; do
+		webserver=${webserver%,}
+		# Redirection of 3 is needed because Debconf uses it and it might
+                # be inherited by webserver. See bug #446324.
+		if pathfind invoke-rc.d; then
+                    invoke-rc.d $webserver reload 3>/dev/null || true
+		else
+                    /etc/init.d/$webserver reload 3>/dev/null || true
+		fi
+            done
+	fi
+
+
+
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+
+
+
+#DEBHELPER#
+
+exit 0

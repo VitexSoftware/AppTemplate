@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>cz.vitexsoftware.apptemplate</id>
+  
+  <name>Ease AppTemplate</name>
+  <summary>Ease Framework example</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  
+  <description>
+    <p>
+      Ease APP Template example
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">io.github.vitexsoftware.apptemplate.desktop</launchable>
+</component>
+

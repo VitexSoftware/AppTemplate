@@ -1,0 +1,44 @@
+Source: apptemplate
+Section: web
+Priority: optional
+Maintainer: "Vítězslav Dvořák" <info@vitexsoftware.cz>t
+Build-Depends: debhelper (>=11~), jq, moreutils
+Standards-Version: 4.1.4
+Homepage: https://github.com/VitexSoftware/MultiFlexiBeeSetup
+
+Package: apptemplate
+Multi-Arch: foreign
+Depends: ${misc:Depends}, php-cli, locales-all, php-robmorgan-phinx, php-vitexsoftware-ease-fluentpdo, apptemplate-sqlite|apptemplate-mysql|apptemplate-pgsql, libjs-jquery-datatables
+Suggests: flexibee-server,php-flexibee-config, flexibee-digest, flexibee-matcher, flexibee-reminder, flexibee-contract-invoices
+Architecture: all
+Description: run several tools on defined flexibee servers
+ Define server, customets and its companies. Then specify
+ which services/commands run upon it.
+
+Package: apptemplate-sqlite
+Multi-Arch: foreign
+Depends: ${misc:Depends},apptemplate, dbconfig-sqlite3, php-sqlite3
+Conflicts: apptemplate-mysql, apptemplate-pgsql
+Suggests: sqlite3
+Architecture: all
+Description: sqlite support for multiflexibee setup
+ Mandatory dependencies for use Ease AppTemplate setup with SQLite database
+
+Package: apptemplate-mysql
+Multi-Arch: foreign
+Depends: ${misc:Depends},apptemplate, dbconfig-mysql, php-mysql
+Conflicts: apptemplate-sqlite, apptemplate-pgsql
+Suggests: mariadb-server
+Architecture: all
+Description: mariadb support for multiflexibee setup
+ Mandatory dependencies for use Ease AppTemplate setup with MySQL/MariaDB databas
+
+Package: apptemplate-pgsql
+Multi-Arch: foreign
+Depends: ${misc:Depends},apptemplate, dbconfig-pgsql, php-pgsql
+Conflicts: apptemplate-mysql, apptemplate-sqlite
+Suggests: postgresql
+Architecture: all
+Description: postgres support for multiflexibee setup
+ Mandatory dependencies for use Ease AppTemplate setup with PostgreSQL database
+
