@@ -1,6 +1,6 @@
 FROM debian:latest
 
-ENV APACHE_DOCUMENT_ROOT /usr/share/multi-flexibee-setup/
+ENV APACHE_DOCUMENT_ROOT /usr/share/apptempalte/
 env DEBIAN_FRONTEND=noninteractive
 
 RUN apt update ; apt install -y wget libapache2-mod-php; echo "deb http://repo.vitexsoftware.cz buster main" | tee /etc/apt/sources.list.d/vitexsoftware.list ; wget -O /etc/apt/trusted.gpg.d/vitexsoftware.gpg http://repo.vitexsoftware.cz/keyring.gpg
@@ -13,10 +13,10 @@ RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf
 
 RUN apt update
 
-RUN aptitude -y install multi-flexibee-setup-sqlite flexibee-matcher flexibee-reminder flexibee-contract-invoices flexibee-digest
+RUN aptitude -y install apptemplate
 
-RUN phinx seed:run -c /usr/lib/multi-flexibee-setup/phinx-adapter.php
-RUN a2ensite multi-flexibee-setup
+RUN phinx seed:run -c /usr/lib/apptempalte/phinx-adapter.php
+RUN a2ensite apptempalte
 
 CMD /usr/sbin/cron
 CMD [ "/usr/sbin/apache2ctl", "-D", "FOREGROUND" ]

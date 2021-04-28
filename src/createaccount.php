@@ -38,7 +38,7 @@ if ($oPage->isPosted()) {
     if (!filter_var($emailAddress, FILTER_VALIDATE_EMAIL)) {
         $oUser->addStatusMessage(_('invalid mail address'), 'warning');
     } else {
-        $testuser = new \FlexiPeeHP\MultiSetup\User();
+        $testuser = new \AbraFlexi\MultiSetup\User();
         $testuser->setkeyColumn('email');
         $testuser->loadFromSQL(addSlashes($emailAddress));
         if ($testuser->getUserName()) {
